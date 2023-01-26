@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+body{
+    overflow: scroll;
+}
+a{
+    text-decoration: none;//去下划线
+    color: white;
+}
+
+.top-nav li a{
+    color: white;
+}
+
+.nav_contain{
+    height: 75px;
+}
+
+.header_contain{
+
+    height: 75px;
+}
+
+.nav_contain,.header_contain,.top-nav,.top-nav li,.input-contain{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    /*overflow: hidden;*/
+}
+
+.tool-right,.tool-right li{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tool-top{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.input-contain{
+    padding-left: 50px;
+}
+
+.top-nav li{
+    text-align: center;
+    padding: 23px 2px 0px 15px;
+    /*margin-top: 26px;*/
+    /*overflow: hidden;*/
+}
+
+
+.top-nav a{
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.nav-logo2{
+   padding: 10px;
+    overflow: visible;
+}
+
+.tool-right li{
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.tool-right li a{
+    color: white;
+    font-size: smaller;
+}
+
+.tool-top{
+    /*padding-right: 25px;*/
+    /*margin-top: 26px;*/
+    /*border-radius: 25px;*/
+    /*background-color: #02d3ff;*/
+    width: 164px;
+    height: 38px;
+    margin-top: 16px;
+    margin-left: -46px;
+    line-height: 14px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background: #eee;
+}
+
+.top-nav a:hover{
+    background-color:#ff9600;
+    overflow: hidden;
+}
+
+.nav-logo{
+    border: none;
+    outline: none;
+    padding-top: 9px;
+    width: 128px;
+    background-color: #eee;
+}
+
+.nav-logo1{
+    padding: 20px 10px 0px 119px;
+    max-width: none;
+    vertical-align: top;
+    color: white;
+}
+
+.video{
+    background:no-repeat;
+}
+
+.img1{
+    position: absolute;
+    top: 10px;
+    right: 252px;
+}
+
+.img2{
+    position: absolute;
+    top: 10px;
+    right: 195px;
+}
+
+.img3{
+    position: absolute;
+    top: 10px;
+    right: 148px;
+}
+
+.login{
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    margin:  20px 20px 20px 28px;
+
+}
+
+.login a{
+    color: white;
+    border-radius: 25px ;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.body-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 754px;
+    background: url(https://livewebbs2.msstatic.com/huya_1674178467_content.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+.video-place{
+    position: absolute;
+    top:100px;
+    left: 100px;
+    width: 1050px;
+    height: 500px;
+}
+
+#aside{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    background-color: #fff;
+    width: 60px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#aside a{
+    text-decoration: none;
+    color: #999;
+    background-color: white;
+    padding-left: 14px;
+}
+
+#aside li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+
+
+
+
+

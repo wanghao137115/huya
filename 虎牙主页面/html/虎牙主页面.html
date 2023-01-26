@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>虎牙主页面编写</title>
+    <link rel="stylesheet" href="../css/hy.css">
+    <link rel="stylesheet" href="../JS/nextshower.js">
+</head>
+
+
+<body  style="height: 5000px">
+<div class="body-img">
+    <header class="nav_contain">
+        <div class="header_contain">
+            <img src="https://a.msstatic.com/huya/main3/static/img/logo2.png" class="nav-logo1" width="120px" height="36px" >
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">直播</a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">赛事</a></li>
+                    <li><a href="#" ><img src="https://a.msstatic.com/huya/main3/common/node_modules/@huyafed/header-view/img/youliao-skr_1d395.png" width="100px" height="-73px" class="video"></a></li>
+                    <li><a href="#">游戏</a></li>
+                </ul>
+            </nav>
+            <div class="input-contain"></div>
+            <div class="tool-top"><input type="text" placeholder="主播，频道，游戏" class="nav-logo" width="80px"></div>
+            <div class="tool-right">
+                <ul>
+                    <li><a href="#" class="nav-logo2"><img src="https://a.msstatic.com/huya/hd/h5/header/components/HeaderDynamic/NavItem/img/ls-2.9113b9d316856ca1d795c0e54079d940.png" width="20px" height="20px" class="img1">开播</a></li>
+                    <li><a href="#" ><img src="https://a.msstatic.com/huya/hd/h5/header/components/HeaderDynamic/NavItem/img/download-2.c9310be282ee8f2196da396cf89c916b.png" width="20px" height="20px" class="img2">下载</a></li>
+                    <li><a href="#"><img src="https://a.msstatic.com/huya/hd/h5/header/components/HeaderDynamic/NavItem/img/history-2.6157ee9c44045989cf42ff47033a592f.png" width="20px" height="20px" class="img3">历史</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="login">
+            <a href="#">登录</a>
+        </div>
+    </header>
+</div>
+<div >
+    <img src="../images/12.png" alt="" class="video-place">
+</div>
+
+<div id="aside">
+    <ul>
+        <li><a href="#">下载</a></li>
+        <hr>
+        <li><a href="#">开播</a></li>
+        <hr>
+        <li><a href="#">网游</a></li>
+        <hr>
+        <li><a href="#">合作</a></li>
+        <hr>
+        <li><a href="#">帮助</a></li>
+        <hr>
+        <li><a href="#">举报</a></li>
+        <hr>
+        <li><a href="#">客服</a></li>
+
+    </ul>
+</div>
+
+<script src="../JS/myAnimation2.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    window.onload=function () {
+        var aside=document.getElementById('aside');
+        //获取广告栏的偏移量
+        var aside_top=aside.offsetTop;
+        window.onscroll=function () {
+            //获取页面滚动的高度
+            var docScrollTop = document.documentElement.scrollTop||document.body.scrollTop;
+            startAnimation(aside,{"top":docScrollTop+aside_top});
+        }
+    }
+</script>
+</body>
+</html>
